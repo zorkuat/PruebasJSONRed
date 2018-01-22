@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UsuariosTableViewController.h
 //  PruebasJSONRed
 //
 //  Created by cice on 22/1/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface UsuariosTableViewController : UITableViewController
 
 @end
-

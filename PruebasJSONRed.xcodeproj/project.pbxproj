@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		09FEDDED20163D11007A131A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEDDEC20163D11007A131A /* AppDelegate.m */; };
-		09FEDDF020163D11007A131A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEDDEF20163D11007A131A /* ViewController.m */; };
 		09FEDDF320163D11007A131A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FEDDF120163D11007A131A /* Main.storyboard */; };
 		09FEDDF520163D11007A131A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FEDDF420163D11007A131A /* Assets.xcassets */; };
 		09FEDDF820163D11007A131A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FEDDF620163D11007A131A /* LaunchScreen.storyboard */; };
 		09FEDDFB20163D11007A131A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEDDFA20163D11007A131A /* main.m */; };
+		09FEDE0320163D8D007A131A /* UsuariosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FEDE0220163D8D007A131A /* UsuariosTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09FEDDE820163D11007A131A /* PruebasJSONRed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebasJSONRed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FEDDEB20163D11007A131A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09FEDDEC20163D11007A131A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		09FEDDEE20163D11007A131A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		09FEDDEF20163D11007A131A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		09FEDDF220163D11007A131A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09FEDDF420163D11007A131A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09FEDDF720163D11007A131A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09FEDDF920163D11007A131A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09FEDDFA20163D11007A131A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09FEDE0120163D8D007A131A /* UsuariosTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsuariosTableViewController.h; sourceTree = "<group>"; };
+		09FEDE0220163D8D007A131A /* UsuariosTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsuariosTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +60,13 @@
 			children = (
 				09FEDDEB20163D11007A131A /* AppDelegate.h */,
 				09FEDDEC20163D11007A131A /* AppDelegate.m */,
-				09FEDDEE20163D11007A131A /* ViewController.h */,
-				09FEDDEF20163D11007A131A /* ViewController.m */,
 				09FEDDF120163D11007A131A /* Main.storyboard */,
 				09FEDDF420163D11007A131A /* Assets.xcassets */,
 				09FEDDF620163D11007A131A /* LaunchScreen.storyboard */,
 				09FEDDF920163D11007A131A /* Info.plist */,
 				09FEDDFA20163D11007A131A /* main.m */,
+				09FEDE0120163D8D007A131A /* UsuariosTableViewController.h */,
+				09FEDE0220163D8D007A131A /* UsuariosTableViewController.m */,
 			);
 			path = PruebasJSONRed;
 			sourceTree = "<group>";
@@ -142,8 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09FEDDF020163D11007A131A /* ViewController.m in Sources */,
 				09FEDDFB20163D11007A131A /* main.m in Sources */,
+				09FEDE0320163D8D007A131A /* UsuariosTableViewController.m in Sources */,
 				09FEDDED20163D11007A131A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
